@@ -2,6 +2,16 @@
 
 Thanks for your interest in contributing! Here's how you can help.
 
+## Important: No Company-Specific Content
+
+**All content must be generic and free of company/brand references.** Do not include:
+- Real company names
+- Client or project names
+- Proprietary product names
+- Internal terminology
+
+If examples are needed, use generic placeholders like "Acme Corp", "[Company Name]", or "the product".
+
 ## Ways to Contribute
 
 ### Submit a Prompt
