@@ -10,7 +10,7 @@ Thanks for your interest in contributing! Here's how you can help.
 - Proprietary product names
 - Internal terminology
 
-If examples are needed, use generic placeholders like "Acme Corp", "[Company Name]", or "the product".
+If examples are needed, use generic placeholders like "Workdog Enterprises", "[Company Name]", or "the product".
 
 ## Ways to Contribute
 
