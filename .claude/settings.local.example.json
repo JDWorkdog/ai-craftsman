@@ -1,0 +1,6 @@
+{
+  "// INSTRUCTIONS": "Copy this file to settings.local.json to customize (it's gitignored)",
+  "env": {
+    "USER_NAME": "Your Name"
+  }
+}

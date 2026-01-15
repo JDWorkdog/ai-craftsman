@@ -1,14 +1,88 @@
 # AI Craftsman
 
-### Your AI Productivity Toolkit by Workdog
-
-A curated collection of prompts, commands, skills, and resources to supercharge your AI workflows. Whether you're using Claude, ChatGPT, Gemini, or other AI assistants, you'll find battle-tested tools here.
+Your ready-to-use Claude Code workspace. Clone it, open it, start creating.
 
 ---
 
-## Quick Start by Role
+## Quick Start
 
-Not sure where to begin? Jump to the guide for your role:
+```bash
+git clone https://github.com/JDWorkdog/ai-craftsman.git
+cd ai-craftsman
+```
+
+Open in VS Code with Claude Code extension, then run any command:
+
+```
+/prd
+/research
+/brainstorm
+```
+
+That's it. Your outputs go to the `output/` folder.
+
+---
+
+## Available Commands
+
+| Command | What It Does | Output |
+|---------|--------------|--------|
+| `/prd` | Create a Product Requirements Document | `output/drafts/` |
+| `/research` | Research any topic with sources | `output/research/` |
+| `/prompt` | Build prompts for any AI system | `output/prompts/` |
+| `/extract-style` | Extract brand styles from PowerPoint | `output/analysis/` |
+| `/email` | Draft professional emails | (screen) |
+| `/brainstorm` | Generate ideas with frameworks | `output/brainstorms/` |
+| `/add-task` | Quick task capture | `output/tasks/` |
+| `/user-story` | Write user stories with acceptance criteria | `output/drafts/` |
+| `/daily` | Daily journal and task logging | `output/journal/` |
+
+---
+
+## Project Structure
+
+```
+ai-craftsman/
+├── .claude/              # Claude Code configuration
+│   ├── CLAUDE.md         # Workspace guide
+│   └── commands/         # Slash commands
+│
+├── output/               # Your work (gitignored)
+│   ├── research/         # Research reports
+│   ├── drafts/           # PRDs, user stories
+│   ├── prompts/          # Generated prompts
+│   ├── brainstorms/      # Brainstorming sessions
+│   ├── tasks/            # Task lists
+│   ├── journal/          # Daily journal
+│   └── analysis/         # Style guides
+│
+├── prompts/              # Reference prompts (Claude/ChatGPT/Gemini)
+├── guides/               # Role-based guides
+├── resources/            # Getting started docs
+├── claude-actions/       # For Claude.ai Projects
+└── _examples/            # Sample file formats
+```
+
+---
+
+## Features
+
+### Auto-Journaling
+Talk about your day - Claude logs it automatically. No need to run `/daily` explicitly.
+
+### Task Management
+Tasks are organized into 4 simple folders:
+- `_inbox/` - Quick capture (default)
+- `work/` - Work-related tasks
+- `personal/` - Personal tasks
+- `ideas/` - Someday/maybe items
+
+### Private by Default
+Everything in `output/` is gitignored. Your work stays on your machine.
+
+---
+
+## Role-Based Guides
 
 | Role | Guide | Best For |
 |------|-------|----------|
@@ -22,57 +96,31 @@ Not sure where to begin? Jump to the guide for your role:
 ## What's Inside
 
 ### [Prompts](prompts/)
-Universal prompts that work across multiple LLMs. Each prompt includes optimized versions for:
-- **Claude** - Leveraging Claude's reasoning and nuance
-- **ChatGPT** - Formatted for OpenAI's style
-- **Gemini** - Adapted for Google's approach
-
-### [Claude Code](claude-code/)
-Commands and skills for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) users (VSCode extension):
-- **[Commands](claude-code/commands/)** - Slash commands for common workflows
-- **[Skills](claude-code/skills/)** - Modular capability packages
+Universal prompts that work across multiple LLMs. Each includes versions for:
+- **Claude** - Leveraging Claude's reasoning
+- **ChatGPT** - Formatted for OpenAI
+- **Gemini** - Adapted for Google
 
 ### [Claude Actions](claude-actions/)
-Ready-to-use actions for Claude.ai Projects. No VSCode required - just copy and paste into your Claude Project.
+Ready-to-use actions for Claude.ai Projects. No VS Code required - copy and paste into your Claude Project.
 
 ### [Resources](resources/)
-- **[Getting Started](resources/getting-started/)** - Setup guides for various tools
-- **[Videos](resources/videos.md)** - Curated video tutorials
-- **[Articles](resources/articles.md)** - Blog posts and deep dives
-- **[Tools](resources/tools.md)** - Useful AI tools and utilities
-
----
-
-## How to Use This Repo
-
-### For Prompts
-1. Browse the [prompts/](prompts/) directory
-2. Find the prompt for your task
-3. Copy the version for your LLM (claude.md, chatgpt.md, or gemini.md)
-4. Paste into your AI assistant
-
-### For Claude Code Users
-1. Clone this repo or copy individual files
-2. Place commands in your `.claude/commands/` directory
-3. Place skills in your project's `skills/` directory
-4. Use with `/command-name` in Claude Code
-
-### For Claude.ai Project Users
-1. Browse [claude-actions/](claude-actions/)
-2. Follow the setup instructions in each action file
-3. Add to your Claude Project's custom instructions
+- [Getting Started](resources/getting-started/) - Setup guides
+- [Videos](resources/videos.md) - Tutorials
+- [Articles](resources/articles.md) - Deep dives
+- [Tools](resources/tools.md) - Useful utilities
 
 ---
 
 ## Contributing
 
-Found a great prompt? Have improvements? Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Found a great prompt? Have improvements? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE).
 
 ---
 
